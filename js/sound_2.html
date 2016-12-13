@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .page__wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(sound_img.jpg);
+            opacity: 0.6;
+        }
+        
+        .content {
+            margin: auto;
+            width: 1000px;
+            height: 200px;
+            vertical-align: middle;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .column {
+            height: 100px;
+            width: 100px;
+            border: 5px solid white;
+            border-bottom: 10px solid white;
+            border-top: 10px solid white;
+            border-radius: 5px;
+            display: inline-block;
+            
+            margin-right: 20px;
+            transition: all 0.5s ease;
+            /*transition: all 0.5s ease-out;*/
+            background-color: #95c7e6;
+            /*transform: scale(1,1,1);*/
+        }
+        
+        
+        .value {
+            font-size: 30px;
+        }
+        
+        .key {
+            font-size: 20px;
+            font-style: oblique;
+            font-weight: 700;
+        }
+        .active{
+            background-color: blue;
+            transform: scale(1.2);
+        }
+    </style>
+    <script>
+        var audio;
+        var audio_1;
+        var flag = 1;
+        document.onkeypress = function (e) {
+            if (flag == 1) {
+                switch (e.key) {
+                case "a":   
+                    document.getElementById("p2").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p2").style.backgroundColor = "blue";
+                    audio = new Audio("clap.wav");
+                    audio.play();
+                    break;
+                case "b":
+                    document.getElementById("p3").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p3").style.backgroundColor = "blue";
+                    audio = new Audio("boom.wav");
+                    audio_1.pause();
+                    break;
+                case "c":
+                    document.getElementById("p4").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p4").style.backgroundColor = "blue";
+                    audio = new Audio("hithat.wav");
+                    audio.play();
+                    break;
+                case "d":
+                    document.getElementById("p5").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p5").style.backgroundColor = "blue";
+                    audio = new Audio("kick.wav");
+                    audio.play();
+                    break;
+                case "e":
+                    document.getElementById("p6").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p6").style.backgroundColor = "blue";
+                    audio = new Audio("openhat.wav");
+                    audio.play();
+                    break;
+                case "f":
+                    document.getElementById("p7").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p7").style.backgroundColor = "blue";
+                    audio = new Audio("snare.wav");
+                    audio.play();
+                    break;
+                case "g":
+                    document.getElementById("p8").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p8").style.backgroundColor = "blue";
+                    audio = new Audio("ride.wav");
+                    audio.play();
+                    break;
+                }
+                flag++;
+                audio_1 = audio;
+            }
+            else {
+                switch (e.key) {
+                case "a":
+                    document.getElementById("p2").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p2").style.backgroundColor = "blue";
+                    audio_1.pause();
+                    audio = new Audio("clap.wav");
+                    audio.play();
+                    audio_1 = audio;
+                    break;
+                case "b":
+                    document.getElementById("p3").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p3").style.backgroundColor = "blue";
+                    audio_1.pause();
+                    audio = new Audio("boom.wav");
+                    audio.play();
+                    audio_1 = audio;
+                    break;
+                case "c":
+                    document.getElementById("p4").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p4").style.backgroundColor = "blue";
+                    audio_1.pause();
+                    audio = new Audio("hithat.wav");
+                    audio.play();
+                    audio_1 = audio;
+                    break;
+                case "d":
+                    document.getElementById("p5").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p5").style.backgroundColor = "blue";
+                    audio_1.pause();
+                    audio = new Audio("kick.wav");
+                    audio.play();
+                    audio_1 = audio;
+                    break;
+                case "e":
+                    document.getElementById("p6").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p6").style.backgroundColor = "blue";
+                    audio_1.pause();
+                    audio = new Audio("openhat.wav");
+                    audio.play();
+                    audio_1 = audio;
+                    break;
+                case "f":
+                    document.getElementById("p7").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p7").style.backgroundColor = "blue";
+                    audio_1.pause();
+                    audio = new Audio("snare.wav");
+                    audio.play();
+                    audio_1 = audio;
+                    break;
+                case "g":
+                    document.getElementById("p8").style.transform = "scale(1.2,1.2)";
+                    document.getElementById("p8").style.backgroundColor = "blue";
+                    audio_1.pause();
+                    audio = new Audio("ride.wav");
+                    audio.play();
+                    audio_1 = audio;
+                    break;
+                }
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <div class="page__wrapper">
+        <div class="content">
+            <div class="clap column
+               
+               
+               
+               
+               
+               " id="p2"> <span class="value">A</span>
+                <p class="key">Clap</p>
+            </div>
+            <div class="boom column active" id="p3"><span class="value">B</span>
+                <p class="key">Boom</p>
+            </div>
+            <div class="hithat column" id="p4"><span class="value">C</span>
+                <p class="key">Hithat</p>
+            </div>
+            <div class="kick column" id="p5"><span class="value">D</span>
+                <p class="key">Kick</p>
+            </div>
+            <div class="openhat column" id="p6"><span class="value">E</span>
+                <p class="key">Openhat</p>
+            </div>
+            <div class="snare column" id="p7"><span class="value">F</span>
+                <p class="key">Snare</p>
+            </div>
+            <div class="ride column" id="p8"><span class="value">G</span>
+                <p class="key">Ride</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

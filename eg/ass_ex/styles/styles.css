@@ -1,0 +1,29 @@
+.page__wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+.list__item {
+    list-style-type: none;
+}
+
+.item {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    display: block;
+    height: 60px;
+    border-bottom: gray solid 1px;
+}
+.content__nav {
+    width: 200px;
+    /*height: 500px;*/
+    height: 100%;
+    background-color: cadetblue;
+}

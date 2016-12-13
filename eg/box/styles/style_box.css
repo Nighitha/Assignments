@@ -1,0 +1,37 @@
+#box{
+   margin: 10px;
+   padding: 10px;
+   width: 500px;
+   height: 300px;
+   border: 1px solid black; 
+}
+.box1 {
+  padding-left: 100px;
+  background-color: seagreen;
+  float: left;
+ 
+}
+.box2{
+  background-color: cyan;
+  float: right;
+  clear:right;
+  position: relative;
+  left: -600px;
+  top: 50px;
+}
+.box3{
+  background-color: lightblue;
+  float: left;
+  clear:left;
+  position: absolute;
+  left: 240px;
+  top: 120px;
+}
+.box4{
+  background-color: lightgreen;
+  float: right;
+  clear: right;
+  position: fixed;
+  right: 400px;
+  top: 200px;
+}

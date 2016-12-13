@@ -1,0 +1,42 @@
+.header{
+    width: 1200px;
+    background-color: #000000;
+    padding: 30px 60px 30px 30px;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #000000;
+}
+.list{
+  float: right;
+}
+
+li {
+
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.header__image{
+  float: left;
+}
+ul li:hover { 
+background-image: url(../images/arrow.png); 
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}

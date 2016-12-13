@@ -1,0 +1,150 @@
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.page__wrapper{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    background-color: antiquewhite;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #615d5c;
+}
+
+.button__dashboard{
+    background-image:url(../images/dashboard-btn.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 39px;
+   border: #615d5c solid 2px;
+    margin: 5px 0px 0px 20px;
+}
+
+.header__nav{
+   background-color: #615d5c;
+   margin: 0;
+   position: absolute;
+   left: 50%;  
+   transform: translate(-50%, 0);
+}
+
+
+.button__plus{
+    background-image:url(../images/plus-btn.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 39px;
+    border: #615d5c solid 2px;
+    margin: 5px 20px 0px 0px;
+}
+
+.header__content{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 20px 0px 0px 20px;
+}
+
+.header__content-text_1{
+    font-size: 20px;
+}
+.header__content-text_2{
+    font-size: 40px;
+}
+
+.header__content-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.item{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 30px 50px 30px 50px;
+    text-decoration: none;
+    border-bottom: #eaeaea solid 1px;
+    border-top: #eaeaea solid 1px;
+    border-left: #eaeaea solid 1px;
+    background-color: #f3f3f3;
+}
+
+.header__content-list-1{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.header__content-list-4{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header__content-list-11{
+    font-size: 20px;
+}
+
+.header__content-list12{
+    font-size: 20px;
+}
+
+.header__logo{
+    width: 200px;
+    height: 200px;
+    padding-right: 50px;
+}
+
+.header__bottom{
+    width: 100%;
+    height: 50px;
+    background-color: #615d5c;
+}
+
+.button__task {
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-image: url(../images/plus-btn.png);
+    background-repeat: no-repeat;
+    background-color: #0292cb;
+    margin: 8px 20px 0px 0px;
+}
+
+.button__task-image{
+    float: left;
+}
+
+.header__bottom-content{
+   background-color: #615d5c;
+   margin: 0;
+   padding-top: 15px;
+   color: white;
+   position: absolute;
+   left: 50%;  
+   transform: translate(-50%, 0);
+}
+
+
+
+
+
+

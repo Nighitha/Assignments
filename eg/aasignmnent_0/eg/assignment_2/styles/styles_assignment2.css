@@ -1,0 +1,77 @@
+/*Header style starts here*/
+.header{
+    width: 1200px;
+    background-color: #000000;
+    padding: 30px 60px 30px 30px;
+}
+/*Header style ends here*/
+
+/*Font face starts here*/
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenSans/OpenSans-bold.ttf) format("truetype"),
+         url(../fonts/OpenSans/opensans-bold-webfont.woff) format("woff"),
+         url(../fonts/OpenSans/opensans-bold-webfont.woff2) format("woff2");
+    font-weight: 700;
+    font-style: bold;
+}
+/*Font face ends here*/
+
+/*Header image style starts here*/
+.header__image{
+  float: left;
+}
+/*Header image style ends here*/
+
+/*List styles start here*/
+.header__list-content {
+    background-color: #000000;
+}
+.header__list{
+float: right;
+}
+.list__link{
+font-family: 'OpenSans';
+font-weight: 700;
+font-style: bold;
+display: inline-block;
+
+}
+
+.list__link-content {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.list__home:hover:after {
+    content: url(../images/arrow.png);
+    position: absolute;
+    top: 80px;
+    left: 960px;
+}
+.list__work:hover:after {
+    content: url(../images/arrow.png);
+    position: absolute;
+    top: 80px;
+    left: 1040px;
+}
+.list__us:hover:after {
+    content: url(../images/arrow.png);
+    position: absolute;
+    top: 80px;
+    left: 1107px;
+}
+.list__contact:hover:after {
+    content: url(../images/arrow.png);
+    position: absolute;
+    top: 80px;
+    left: 1185px;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/*List style end here*/ 
+

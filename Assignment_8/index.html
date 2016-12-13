@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment__4</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" /> </head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="header">
+           
+           <!--Header starts here-->
+            <div class="header__primary clearfix">
+               <!--Dashboard button starts here-->
+                <div class="header__primary__button icon-menu fleft" >
+                  <button type="submit" class="button-menu"></button>
+                </div>
+                <!--Dashboard button ends here-->
+                
+                <!--Header navigation starts here-->
+                <div class="header__primary__nav ">
+                <ul class="nav__list">
+                        
+                          <li class="nav_details nav__item"></li> 
+                          <li class="nav_tasks nav__item"></li> 
+                          <li class="nav_hazards nav__item"></li> 
+                          <li class="nav_controls nav__item"></li> 
+                          <li class="nav_history nav__item"></li> 
+                          <li class="nav_help nav__item"></li> 
+                  </ul>
+                  </div>
+                
+                <!--Header navigation ends here-->
+                
+                <!-- Plus button starts here -->
+                <div class="header__primary__button icon__plus fright">
+                <button type="submit" class="button-plus "></button>
+                </div>
+                <!-- Plus button ends here -->
+                 </div>
+                <!--Header ends here-->
+                
+                
+                <!--Header content starts here-->
+                <div class="header__secondary clearfix">
+                   
+                    <div class="header__secondary__content fleft">
+                        <div class="header__secondary__primary-heading">
+                            ID: RA20120328
+                        </div>
+                        <div class="header__secondary__secondary-heading">
+                            Some Job 123
+                        </div>
+                        
+                        <ul class="header__secondary__list">
+                            <li class="secondary__item-status secondary__item">
+                               <div class="header__content-list-key key__status">RA STATUS</div>
+                                <div class="header__content-list-value">Open-Draft</div> 
+                            </li>
+                            <li class="secondary__item_due secondary__item">
+                               <div class="header__content-list-key">DUE DATE</div>
+                                <div class="header__content-list-value">04/20/2012</div> 
+                            </li>
+                            <li class="secondary__item-assign secondary__item">
+                               <div class="header__content-list-key">ASSIGNED TO</div>
+                                <div class="header__content-list-value">John Doe(You)</div> 
+                            </li>
+                            <li class="secondary__item-update secondary__item__last secondary__item">
+                               <div class="header__content-list-key">LAST UPDATED</div>
+                                <div class="header__content-list-value">03-28-2012 <span class="content__line">|</span> By:John Doe</div> 
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="secondary__header-logo fright">
+                       <a href="#">
+                        <img src="images/at&t-logo.jpg" class="secondary__header__logo"/>
+                        </a>
+                    </div>
+                </div>
+                <!--Header content ends here-->
+                
+                
+        </div>
+            
+         <div class="content">
+           
+              <div class="task__header">
+                   <span class="task__header__text">
+                       TASKS
+                   </span>
+                   <button type="submit" class="task__icon">
+                      <span class="task__icon-plus">+ </span>
+                       <span class="task__icon-text">New Task</span></button>
+                    
+                </div>
+          <div class="task__content">
+            <!--navigation starts here-->
+             <ul class="task__list">
+
+             <li class="task__list__item clearfix">
+                <div class="list__item clearfix">
+                
+                 <span class="item__column-1 fleft"> 
+                 <img class="column-1__image " src="images/img-thumb.jpg"/>
+                 </span>
+                 
+                 <span class="item__column-2 fleft">
+                 
+                 <h3>This is Some Task</h3>
+                 <p>
+                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type.
+                 </p>
+                  <a href="#">
+                  <div class="column-2__attach clearfix">
+                 <img  class="column-2__image fleft" src="images/attachment.png"/>
+                 <span class="column__2-text fleft">2</span>
+                 </div>
+                 </a>
+                 </span>
+                 
+                 <span class="item__column-3 fleft">
+                    <b class="hazard__text">HAZARD TYPE</b>
+                    
+                    <table class="hazard__table">
+                        <tr>
+                            <td class="hazard__table-column">
+                               <a href="#">
+                                <span class="hazard-item clearfix">
+                                 <span class="hazard__icon column-3__item__1_1  fleft"></span>
+                                     <span class="text__first fright">2</span>
+                                     </span>
+                                 </a>
+                            </td>
+                            <td class="hazard__table-column">
+                             <a href="#">
+                                <span class="hazard-item clearfix">
+                                 <span class="hazard__icon column-3__item__1_2  fleft"></span>
+                               <span class="text__second fright">5</span>
+                                 </span>
+                             </a>
+                            </td>
+                            <td class="hazard__table-column">
+                               <a href="#"> 
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__1_3  fleft"></span>
+                              <span class="text__third fright">0</span></span>
+                               </a> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__2_1  fleft"></span>
+                              <span class="text__first fright">5</span></span>
+                              </a>
+                            </td>
+                            <td>
+                                <a href="#"> 
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__2_2  fleft"></span>
+                              <span class="text__first fright">5</span></span>
+                             </a>
+                            </td>
+                            <td>
+                                <a href="#"> 
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__2_3  fleft"></span>
+                              <span class="text__fourth fright">7</span></span>
+                        </a>
+                            </td>
+                        </tr>
+                    </table>
+                     <br/>
+                     <b class="severity__text">SEVERITY</b>
+                     <ul class="column-4__list">
+                         <li class="severity__first severity__item_1_1 severity-item">25</li>
+                         <li class="severity__second severity__item_1_2 severity-item">14</li>
+                         <li class="severity__third severity__item_1_3 severity-item"></li>
+                     </ul>
+                 </span>
+
+                <span class="item__column-4 fright">
+                    <img class="column-4-image" src="images/list-arrow.png"/>
+                </span>
+                
+                 </div>
+                  </li>
+                   
+                  <li class="task__list__item">
+                <div class="list__item clearfix">
+                
+                 <span class="item__column-1 fleft"> 
+                 <img class="column-1__image " src="images/img-thumb2.jpg"/>
+                 </span>
+                 
+                 <span class="item__column-2 fleft">
+                 <h3>Mixing Chemical X</h3>
+                 <p>
+                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type.
+                     </p>
+                  <a href="#">
+                  <div class="column-2__attach clearfix">
+                 <img  class="column-2-image fleft" src="images/attachment.png"/>
+                 <span class="column-2-text fleft">2</span>
+                 </div>
+                 </a>
+                 </span>
+                 
+                 <span class="item__column-3 fleft">
+                    <b class="hazard__text">HAZARD TYPE</b>
+                     
+                     <table class="hazard__table">
+                         <tr>
+                             <td class="hazard__table-column">
+                                 <a href="#"> 
+                                 <span class="hazard-item clearfix">
+                                     <span class="hazard__icon column-3__item__3_1 fleft"></span>
+                                  <span class="text__second fright">7</span></span>
+                              </a>
+                             </td>
+                             <td class="hazard__table-column">
+                                <a href="#"> 
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__3_2  fleft"></span>
+                              <span class="text__first fright">15</span></span>
+                         </a> 
+                             </td>
+                             <td class="hazard__table-column">
+                                 <a href="#">
+                                 <span class="hazard-item clearfix">
+                                     <span class="hazard__icon column-3__item__3_3  fleft"></span>
+                              <span class="text__third fright">0</span></span>
+                         
+                          </a>
+                             </td>
+                         </tr>
+                         <tr>
+                             <td class="hazard__table-column">
+                                 <a href="#"> 
+                                 <span class="hazard-item clearfix">
+                                     <span class="hazard__icon column-3__item__4_1  fleft"></span>
+                              <span class="text__first fright">2</span></span>
+
+                         </a>
+                             </td>
+                             <td class="hazard__table-column">
+                                <a href="#">
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__4_2  fleft"></span>
+                              <span class="text__first fright">5</span></span>
+                         </a> 
+                             </td>
+                             <td class="hazard__table-column">
+                                 <a href="#">
+                                 <span class="hazard-item clearfix">
+                                     <span class="hazard__icon column-3__item__4_3  fleft"></span>
+                              <span class="text__fourth fright">0</span></span>
+                              </a>
+                             </td>
+                         </tr>
+                     </table>
+                     
+                     <br/>
+                     <b class="severity__text">SEVERITY</b>
+                     <ul class="column-4__list">
+                         <li class="severity__first severity__item_2_1 severity-item">20</li>
+                         <li class="severity__second severity__item_2_2 severity-item">02</li>
+                         <li class="severity__third severity__item_2_3 severity-item">03</li>
+                     </ul>
+                 </span>
+
+                <span class="item__column-4 fright">
+                    <img class="column-4__image" src="images/list-arrow.png"/>
+                </span>
+                
+                 </div>
+                  </li>
+                  
+                  
+                  <li class="task__list__item">
+                <div class="list__item clearfix">
+                
+                 <span class="item__column-1 fleft"> 
+                 <img class="column-1__image " src="images/img-thumb3.jpg"/>
+                 </span>
+                 
+                 <span class="item__column-2 fleft">
+                 <h3>Climbing Large Rocks</h3>
+                 <p>
+                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type.
+                     </p>
+                  <a href="#">
+                  <div class="column-2__attach clearfix">
+                 <img  class="column-2-image fleft" src="images/attachment.png"/>
+                 <span class="column-2-text fleft">2</span>
+                 </div>
+                 </a>
+                 </span>
+                 
+                 <span class="item__column-3 fleft">
+                    <b class="hazard__text">HAZARD TYPE</b>
+                    <table class="hazard__table">
+                        <tr>
+                            <td class="hazard__table-column">
+                                <a href="#"> 
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__5_1  fleft"></span>
+                              <span class="text__first fright">5</span></span>
+                               </a>
+                            </td>
+                            <td class="hazard__table-column">
+                                <a href="#"> 
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__5_2  fleft"></span>
+                              <span class="text__first fright">7</span></span>
+                          </a>
+                            </td>
+                            <td class="hazard__table-column">
+                               <a href="#">
+                                <span class="hazard-item clearfix"> 
+                                    <span class="hazard__icon column-3__item__5_3  fleft"></span>
+                              <span class="text__third fright">7</span></span>
+                         </a> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="hazard__table-column">
+                                <a href="#">
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__6_1  fleft"></span>
+                              <span class="text__first fright">5</span></span>
+                         </a>
+                            </td>
+                            <td class="hazard__table-column">
+                                <a href="#">
+                                <span class="hazard-item clearfix"> 
+                                    <span class="hazard__icon column-3__item__6_2  fleft"></span>
+                              <span class="text__first fright">5</span></span>
+                         </a>
+                            </td>
+                            <td class="hazard__table-column">
+                                <a href="#"> 
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__6_3  fleft"></span>
+                              <span class="text__fourth fright">0</span></span>
+                         </a>
+                            </td>
+                        </tr>
+                    </table>
+                   
+                    <br/>
+                     <b class="severity__text">SEVERITY</b>
+                     <ul class="column-4__list">
+                         <li class="severity__first severity__item_2_1 severity-item">20</li>
+                         <li class="severity__second severity__item_2_2 severity-item">02</li>
+                         <li class="severity__third severity__item_2_3 severity-item">03</li>
+                     </ul>
+                 </span>
+
+                <span class="item__column-4 fright">
+                    <img class="column-4__image" src="images/list-arrow.png"/>
+                </span>
+                
+                 </div>
+                  </li>
+                  
+                  
+                   <li class="task__list__item">
+                <div class="list__item clearfix">
+                
+                 <span class="item__column-1 fleft"> 
+                 <img class="column-1__image " src="images/img-thumb.jpg"/>
+                 </span>
+                 
+                 <span class="item__column-2 fleft">
+                 <h3>Lifting Heavy Boxes</h3>
+                 <p>
+                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type.
+                     </p>
+                  <a href="#">
+                  <div class="column-2__attach clearfix">
+                 <img  class="column-2-image fleft" src="images/attachment.png"/>
+                 <span class="column-2-text fleft">2</span>
+                 </div>
+                 </a>
+                 </span>
+                 
+                 <span class="item__column-3 fleft">
+                    <b class="hazard__text">HAZARD TYPE</b>
+                    
+                    <table class="hazard__table">
+                        <tr>
+                            <td class="hazard__table-column">
+                                <a href="#">
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__7_1  fleft"></span>
+                              <span class="text__second fright">5</span></span>
+                          </a>
+                            </td>
+                            <td class="hazard__table-column">
+                                <a href="#"> 
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__7_2  fleft"></span>
+                              <span class="text__second fright">2</span></span>
+                          </a>
+                            </td>
+                            <td class="hazard__table-column">
+                               <a href="#"> 
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__7_3  fleft"></span>
+                              <span class="text__third fright">7</span></span>
+                         
+                        </a> 
+                            </td>
+                        </tr>
+                        <tr>
+                           <td class="hazard__table-column">
+                               <a href="#">
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__8_1  fleft"></span>
+                              <span class="text__first fright">0</span></span>
+                         </a>
+                           </td>
+                           <td class="hazard__table-column">
+                               <a href="#"> 
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__8_2  fleft"></span>
+                              <span class="text__first fright">7</span></span>
+                        </a>
+                           </td>
+                           <td class="hazard__table-column">
+                               <a href="#"> 
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__8_3  fleft"></span>
+                              <span class="text__fourth fright">7</span></span>
+                         </a>
+                           </td> 
+                        </tr>
+                    </table>
+                   
+                    <br/>
+                     <b class="severity__text">SEVERITY</b>
+                    
+                     <ul class="column-4__list">
+                         <li class="severity__first severity__item_4_1 severity-item">20</li>
+                         <li class="severity__second severity__item_4_2 severity-item"></li>
+                         <li class="severity__third severity__item_4_3 severity-item"></li>
+                     </ul>
+                 </span>
+
+                <span class="item__column-4 fright">
+                    <img class="column-4__image" src="images/list-arrow.png"/>
+                </span>
+                
+                 </div>
+                  </li>
+                  
+                  
+                   <li class="task__list__item">
+                <div class="list__item clearfix">
+                
+                 <span class="item__column-1 fleft"> 
+                 <img class="column-1__image" src="images/img-thumb4.jpg"/>
+                 </span>
+                 
+                 <span class="item__column-2 fleft">
+                 <h3 class="column-2__heading">Pouring Hot Coffee</h3>
+                 <p class="column-2__text">
+                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type.
+                </p>
+                  <a href="#">
+                  <div class="column-2__attach clearfix">
+                 <img  class="column-2-image fleft" src="images/attachment.png"/>
+                 <span class="column-2-text fleft">2</span>
+                 </div>
+                 </a>
+                 </span>
+                 
+                 <span class="item__column-3 fleft">
+                      <b class="hazard__text">HAZARD TYPE</b>
+                      <table class="hazard__table">
+                          <tr>
+                              <td class="hazard__table-column">
+                                <a href="#">
+                                <span class="hazard-item clearfix">
+                                    <span class="hazard__icon column-3__item__5_1  fleft"></span>
+                              <span class="text__first fright">5</span></span>
+                         </a>  
+                              </td>
+                              <td class="hazard__table-column">
+                                  <a href="#">
+                                  <span class="hazard-item clearfix">
+                                      <span class="hazard__icon column-3__item__5_2  fleft"></span>
+                              <span class="text__first fright">7</span></span>
+                          </a>
+                              </td>
+                              <td class="hazard__table-column">
+                                  <a href="#"> 
+                                  <span class="hazard-item clearfix">
+                                      <span class="hazard__icon column-3__item__5_3  fleft"></span>
+                              <span class="text__third fright">0</span></span>
+                        </a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td class="hazard__table-column">
+                                 <a href="#"> 
+                                 <span class="hazard-item clearfix">
+                                     <span class="hazard__icon column-3__item__6_1  fleft"></span>
+                              <span class="text__first fright">2</span></span>
+                          </a> 
+                              </td>
+                              <td class="hazard__table-column">
+                                  <a href="#">
+                                  <span class="hazard-item clearfix">
+                                      <span class="hazard__icon column-3__item__6_2  fleft"></span>
+                              <span class="text__first fright">5</span></span>
+                         </a>
+                              </td>
+                              <td class="hazard__table-column">
+                                  <a href="#">
+                                  <span class="hazard-item clearfix">
+                                      <span class="hazard__icon column-3__item__6_3  fleft"></span>
+                              <span class="text__fourth fright">7</span></span>
+                             </a>
+                              </td>
+                          </tr>
+                      </table>
+                     
+                     <br/>
+                     <b class="severity__text">SEVERITY</b>
+                     <ul class="column-4__list">
+                         <li class="severity__first severity__item_2_1 severity-item">20</li>
+                         <li class="severity__second severity__item_2_2 severity-item">14</li>
+                         <li class="severity__third severity__item_2_3 severity-item">09</li>
+                     </ul>
+                 </span>
+
+                <span class="item__column-4 fright">
+                    <img class="column-4__image" src="images/list-arrow.png"/>
+                </span>
+                
+                 </div>
+                  </li>
+                  
+             </ul>
+        </div>
+        <footer class="footer clearfix"> 
+              <img class="footer__image fleft" src="images/poweredby-remedy-interactive.jpg"/> 
+                <button type="submit" class="footer__button fright"><span class="footer__text">Submit Risk Assessment Approval</span></button>
+        </footer> 
+         </div> 
+         
+    </div>
+</body>
+
+</html>

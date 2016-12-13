@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body{
+     margin: 0;
+     padding: 0;
+} 
+    
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}    
+
+.page__wrapper{
+        background-color: black;
+        width: 100%;
+}    
+    
+.page__wrapper::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.header__logo{
+    height: 56px;    
+    }  
+    
+.header__nav__link {
+    font-weight: 700;
+    font-style: bold;
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.header__nav__link.active{
+    background-image: url(images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.header__nav__link:hover {
+    background-image: url(images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}    
+    
+    
+[class*="col-"] {
+    float: left;
+}
+
+[class*="col-"] {
+    width: 100%;
+    margin: auto;
+}
+    
+@media only screen and (min-width: 200px) {
+
+    .header__nav{
+        visibility: hidden;
+    }
+}    
+    
+    
+@media only screen and (min-width: 600px) {
+    .page__wrapper{
+        text-align: center;
+    }
+    .layout__header{
+        width: 100%;
+    }
+    
+    .layout__list{
+    
+    float: none;
+    }
+    .header__nav{
+        visibility: visible;
+        margin: auto;
+    }
+    .dropdown{
+        visibility: hidden;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .page__wrapper{
+        text-align: left;
+    }
+    .header__nav{
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 4px;
+    }
+    
+    .header__nav{
+        visibility: visible;
+    }
+
+.layout{
+        margin: auto;
+    }    
+    
+</style>
+</head>
+
+
+<body>
+<div class="page__wrapper">
+<div class="layout clearfix">
+<div class="layout__header fleft">
+  <img src="images/logo.png" class="header__logo"/>
+</div>
+
+<div class="layout__list fright">
+     <nav class="header__nav">
+         <a class="header__nav__link active" href="#">Home</a> 
+         <a class="header__nav__link" href="#">Work</a> 
+         <a class="header__nav__link" href="#">Us</a> 
+         <a class="header__nav__link" href="#">Contact</a> 
+     </nav>
+
+</div>
+
+
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        
+    .borders {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border: 10px solid blue;
+    border-radius: 10px;
+     border-radius: 13px;
+    transform: rotate(45deg);
+}
+        
+.borders:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 5px solid blue;
+}        
+
+</style>
+</head>
+
+<body>
+  <div class="borders">.</div>
+</body>
+</html>
+--------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        
+    .borders {
+        background-color: blue;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border: 10px solid white;
+    transform: rotate(45deg);
+            position: absolute;
+    clip: rect(0px,40px,29px,11px);
+}
+.logo{
+      width: 50px;
+    height: 40px;
+    border: 5px solid blue;
+    background-color: blue;
+        border-radius: 31px;
+        }
+        
+.borders:after {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 5px solid blue;
+}        
+
+</style>
+</head>
+
+<body>
+ <div class="logo">
+  <div class="borders">.</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.header{
+    width: 1200px;
+    background-color: #000000;
+    padding: 30px 60px 30px 30px;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenSans/OpenSans-bold.ttf) format("truetype"),
+         url(../fonts/OpenSans/opensans-bold-webfont.woff) format("woff"),
+         url(../fonts/OpenSans/opensans-bold-webfont.woff2) format("woff2");
+    font-weight: 700;
+    font-style: bold;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #000000;
+}
+.list{
+  float: right;
+}
+
+li {
+    font-family: 'OpenSans';
+    font-weight: 700;
+    font-style: bold;
+    display: inline-block;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.header__image{
+  float: left;
+}
+li{
+  border-bottom: url("images/arrow.png");
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}

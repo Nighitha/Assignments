@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+.page__wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    min-height: 650px;
+    background-color: darkgrey;
+    overflow: hidden;
+}
+
+.page__wrapper:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: middle;
+    width: 500px;
+    height: auto;
+    border: darkgrey solid 1px;
+    background-color: lavender;
+}

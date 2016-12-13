@@ -1,0 +1,123 @@
+/* reset classes starts here*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/bg_main.png);
+    background-color: #e6e6e6;
+}
+
+
+/* reset classes ends here*/
+
+
+/*commonly used classes starts here*/
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+
+/*commonly used classes starts here*/
+
+
+/*header styles starts here*/
+
+.header {
+    background-color: cadetblue;
+    height: 58px;
+    border: #7e878f solid 1px;
+    width: 600px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 0px;
+}
+
+
+/*header styles starts here*/
+
+
+/*content styles starts here*/
+
+.content__wrapper {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 200px;
+    right: 0;
+    width: 600px;
+    height: 440px;
+    margin: auto;
+}
+
+.page__wrapper {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 800px;
+    height: 550px;
+    margin: auto;
+}
+
+.content__nav {
+    width: 200px;
+    height: 560px;
+    margin-top: -60px;
+    background-color: cadetblue;
+}
+
+.content {
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.content__text {
+    padding: 20px 0px 20px 20px;
+}
+
+
+/*content styles starts here*/
+
+
+/*List styles starts here*/
+
+.list__item {
+    list-style-type: none;
+}
+
+.item {
+    margin: auto;
+    padding-top: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+    height: 40px;
+    border-bottom: gray solid 1px;
+}
+
+.item:hover {
+    background-color: gray;
+}
+
+
+/*List styles ends here*/

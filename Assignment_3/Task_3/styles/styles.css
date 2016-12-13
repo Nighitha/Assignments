@@ -1,0 +1,153 @@
+/* reset classes starts here*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+
+/* reset classes ends here*/
+
+
+/*commonly used classes starts here*/
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.page__layout {
+    width: 100%;
+    margin: auto;
+}
+
+
+/*commonly used classes starts here*/
+
+
+/*header styles starts here*/
+
+.header {
+    background-color: #32404d;
+    height: 58px;
+    margin: auto;
+    border: #7e878f solid 1px;
+    width: 100%;
+    position: fixed;
+}
+
+.header__logo {
+    padding: 16px 0px 0px 20px;
+    color: white;
+}
+
+.header__text {
+    padding: 16px 20px 0px 0px;
+    color: white;
+}
+
+
+/*header styles starts here*/
+
+
+/*content styles starts here*/
+
+.content__wrapper {
+    display: inline-block;
+}
+
+.content__nav {
+    width: 300px;
+    margin-top: 60px;
+    background-color: #4b5c6e;
+    position: fixed;
+    top: 0px;
+}
+
+.content {
+    margin-top: 60px;
+    width: calc(100% - 300px);
+    background-color: white;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    z-index: -1;
+    padding-bottom: 40px;
+}
+
+.content__text {
+    font-weight: 400;
+    font-style: normal;
+    color: #707880;
+    padding: 0px 0px 20px 20px;
+}
+
+.content__title {
+    padding: 10px 0px 20px 20px;
+    font-weight: 700;
+    font-style: bold;
+    color: #32404d;
+    text-decoration: underline;
+}
+
+
+/*content styles starts here*/
+
+
+/*navigation styles starts here*/
+
+.item {
+    padding: 10px 0px 0px 10px;
+    text-decoration: none;
+    color: white;
+    padding-top: center;
+    display: block;
+    height: 40px;
+    border-bottom: #5e6d7d solid 1px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.item.active {
+    background-color: #19a2e8;
+}
+
+.item:hover {
+    background-color: gray;
+}
+
+
+/*navigation styles ends here*/
+
+
+/*footer styles starts here*/
+
+.footer {
+    width: 100%;
+    background-color: #32404d;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer__text {
+    padding: 5px 20px 0px 0px;
+    color: white;
+}
+
+
+/*footer styles ends here*/

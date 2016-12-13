@@ -1,0 +1,198 @@
+/* reset classes starts here*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #e6e6e6;
+    overflow: auto;
+}
+
+
+/* reset classes ends here*/
+
+
+/*font_face starts here*/
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Bold.ttf) format("truetype"), url(../fonts/Roboto/roboto-bold-webfont.woff) format("woff"), url(../fonts/Roboto/roboto-bold-webfont.woff2) format("woff2");
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype"), url(../fonts/Roboto/roboto-regular-webfont.woff) format("woff"), url(../fonts/Roboto/roboto-regular-webfont.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Light.ttf) format("truetype"), url(../fonts/Roboto/roboto-light-webfont.woff) format("woff"), url(../fonts/Roboto/roboto-light-webfont.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenSans/OpenSans-Regular.ttf) format("truetype"), url(../fonts/OpenSans/opensans-regular-webfont.woff) format("woff"), url(../fonts/OpenSans/opensans-regular-webfont.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*font_face ends here*/
+
+
+/*content styles starts here*/
+
+.first__text {
+    font-family: 'Roboto';
+    font-size: 60px;
+    font-weight: 700;
+    font-style: bold;
+    font: #2e2e2c;
+}
+
+.second__text {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    font: #372b1d;
+    padding-bottom: 10px;
+}
+
+.third__text {
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 700px;
+    font: #2e2e2c;
+    font: #2e2e2e;
+    font-size: 30px;
+    padding: 5px 0px 5px 70px;
+    border-bottom: 2px solid #ebdc8a;
+    border-top: 2px solid #ebdc8a;
+}
+
+.paragraph {
+    padding-top: 10px;
+    font-family: 'OpenSans';
+    font-weight: 400;
+    font-style: normal;
+    font: #605d54;
+}
+
+.content__nav {
+    width: 250px;
+    background-color: #2f2f2f;
+    background-image: url(../images/10.png);
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+}
+
+.nav__image {
+    width: 250px;
+    padding: 50px 0px 50px 0px;
+}
+
+
+.item {
+    padding-top: -10px;
+    text-decoration: none;
+    color: white;
+    padding-left: 60px;
+    display: block;
+    height: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.item.active {
+    background-image: url(../images/bg_menu_act.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    
+}
+.link{
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.link.first{
+    color: white;
+    background-color: #020100;
+    border: 3px solid #020100;
+}
+.link:hover{
+    color: white;
+    background-color: #020100;
+    border: 3px solid #020100;
+}
+
+.item:hover {
+   /* background:#020100;*/
+    background-image: url(../images/bg_menu_act.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.content {
+    width: 100%;
+    background-color: #f6f6f6;
+    background-image: url(../images/bg_main.png);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    z-index: -1;
+    min-height: 600px;
+    min-width: 1300px;
+}
+
+.matter {
+    width: 900px;
+    background-color: #f6f6f6;
+    background-image: url(../images/bg_main.png);
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+
+/*content styles ends here*/
+
+
+/*footer styles starts here*/
+
+.footer {
+    width: 250px;
+    background-color: #2f2f2f;
+    background-image: url(../images/10.png);
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__text1 {
+    font-size: 10px;
+    padding-left: 40px;
+    color: white;
+}
+
+.footer__text2 {
+    color: #957b2e;
+    font-size: 10px;
+}
+/*footer styles ends here*/
