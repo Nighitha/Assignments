@@ -37,7 +37,6 @@
             border-top: 10px solid white;
             border-radius: 5px;
             display: inline-block;
-            
             margin-right: 20px;
             transition: all 0.5s ease;
             /*transition: all 0.5s ease-out;*/
@@ -55,10 +54,7 @@
             font-style: oblique;
             font-weight: 700;
         }
-        .active{
-            background-color: blue;
-            transform: scale(1.2);
-        }
+
     </style>
     <script>
         var audio;
@@ -72,42 +68,70 @@
                     document.getElementById("p2").style.backgroundColor = "blue";
                     audio = new Audio("clap.wav");
                     audio.play();
+                    setTimeout(function(){
+                    document.getElementById("p2").style.transform = "scale(1,1)";
+                    document.getElementById("p2").style.backgroundColor = "#95c7e6";
+                    }, 500); 
                     break;
                 case "b":
                     document.getElementById("p3").style.transform = "scale(1.2,1.2)";
                     document.getElementById("p3").style.backgroundColor = "blue";
                     audio = new Audio("boom.wav");
                     audio_1.pause();
+                    setTimeout(function(){
+                    document.getElementById("p3").style.transform = "scale(1,1)";
+                    document.getElementById("p3").style.backgroundColor = "#95c7e6";
+                    }, 500);     
                     break;
                 case "c":
                     document.getElementById("p4").style.transform = "scale(1.2,1.2)";
                     document.getElementById("p4").style.backgroundColor = "blue";
                     audio = new Audio("hithat.wav");
                     audio.play();
+                    setTimeout(function(){
+                    document.getElementById("p4").style.transform = "scale(1,1)";
+                    document.getElementById("p4").style.backgroundColor = "#95c7e6";
+                    }, 500); 
                     break;
                 case "d":
                     document.getElementById("p5").style.transform = "scale(1.2,1.2)";
                     document.getElementById("p5").style.backgroundColor = "blue";
                     audio = new Audio("kick.wav");
                     audio.play();
+                    setTimeout(function(){
+                    document.getElementById("p5").style.transform = "scale(1,1)";
+                    document.getElementById("p5").style.backgroundColor = "#95c7e6";
+                    }, 500); 
                     break;
                 case "e":
                     document.getElementById("p6").style.transform = "scale(1.2,1.2)";
                     document.getElementById("p6").style.backgroundColor = "blue";
                     audio = new Audio("openhat.wav");
                     audio.play();
+                    setTimeout(function(){
+                    document.getElementById("p6").style.transform = "scale(1,1)";
+                    document.getElementById("p6").style.backgroundColor = "#95c7e6";
+                    }, 500); 
                     break;
                 case "f":
                     document.getElementById("p7").style.transform = "scale(1.2,1.2)";
                     document.getElementById("p7").style.backgroundColor = "blue";
                     audio = new Audio("snare.wav");
                     audio.play();
+                    setTimeout(function(){
+                    document.getElementById("p7").style.transform = "scale(1,1)";
+                    document.getElementById("p7").style.backgroundColor = "#95c7e6";
+                    }, 500); 
                     break;
                 case "g":
                     document.getElementById("p8").style.transform = "scale(1.2,1.2)";
                     document.getElementById("p8").style.backgroundColor = "blue";
                     audio = new Audio("ride.wav");
                     audio.play();
+                        setTimeout(function(){
+                    document.getElementById("p8").style.transform = "scale(1,1)";
+                    document.getElementById("p8").style.backgroundColor = "#95c7e6";
+                    }, 500); 
                     break;
                 }
                 flag++;
@@ -122,6 +146,10 @@
                     audio = new Audio("clap.wav");
                     audio.play();
                     audio_1 = audio;
+                        setTimeout(function(){
+                    document.getElementById("p2").style.transform = "scale(1,1)";
+                    document.getElementById("p2").style.backgroundColor = "#95c7e6";
+                    }, 500); 
                     break;
                 case "b":
                     document.getElementById("p3").style.transform = "scale(1.2,1.2)";
@@ -130,6 +158,10 @@
                     audio = new Audio("boom.wav");
                     audio.play();
                     audio_1 = audio;
+                        setTimeout(function(){
+                    document.getElementById("p3").style.transform = "scale(1,1)";
+                    document.getElementById("p3").style.backgroundColor = "#95c7e6";
+                    }, 500); 
                     break;
                 case "c":
                     document.getElementById("p4").style.transform = "scale(1.2,1.2)";
@@ -138,6 +170,10 @@
                     audio = new Audio("hithat.wav");
                     audio.play();
                     audio_1 = audio;
+                        setTimeout(function(){
+                    document.getElementById("p4").style.transform = "scale(1,1)";
+                    document.getElementById("p4").style.backgroundColor = "#95c7e6";
+                    }, 500); 
                     break;
                 case "d":
                     document.getElementById("p5").style.transform = "scale(1.2,1.2)";
@@ -146,6 +182,10 @@
                     audio = new Audio("kick.wav");
                     audio.play();
                     audio_1 = audio;
+                        setTimeout(function(){
+                    document.getElementById("p5").style.transform = "scale(1,1)";
+                    document.getElementById("p5").style.backgroundColor = "#95c7e6";
+                    }, 500); 
                     break;
                 case "e":
                     document.getElementById("p6").style.transform = "scale(1.2,1.2)";
@@ -154,6 +194,10 @@
                     audio = new Audio("openhat.wav");
                     audio.play();
                     audio_1 = audio;
+                        setTimeout(function(){
+                    document.getElementById("p6").style.transform = "scale(1,1)";
+                    document.getElementById("p6").style.backgroundColor = "#95c7e6";
+                    }, 500); 
                     break;
                 case "f":
                     document.getElementById("p7").style.transform = "scale(1.2,1.2)";
@@ -162,6 +206,10 @@
                     audio = new Audio("snare.wav");
                     audio.play();
                     audio_1 = audio;
+                        setTimeout(function(){
+                    document.getElementById("p7").style.transform = "scale(1,1)";
+                    document.getElementById("p7").style.backgroundColor = "#95c7e6";
+                    }, 500); 
                     break;
                 case "g":
                     document.getElementById("p8").style.transform = "scale(1.2,1.2)";
@@ -170,6 +218,10 @@
                     audio = new Audio("ride.wav");
                     audio.play();
                     audio_1 = audio;
+                        setTimeout(function(){
+                    document.getElementById("p8").style.transform = "scale(1,1)";
+                    document.getElementById("p8").style.backgroundColor = "#95c7e6";
+                    }, 500); 
                     break;
                 }
             }
@@ -180,16 +232,10 @@
 <body>
     <div class="page__wrapper">
         <div class="content">
-            <div class="clap column
-               
-               
-               
-               
-               
-               " id="p2"> <span class="value">A</span>
+            <div class="clap column" id="p2"> <span class="value">A</span>
                 <p class="key">Clap</p>
             </div>
-            <div class="boom column active" id="p3"><span class="value">B</span>
+            <div class="boom column " id="p3"><span class="value">B</span>
                 <p class="key">Boom</p>
             </div>
             <div class="hithat column" id="p4"><span class="value">C</span>
